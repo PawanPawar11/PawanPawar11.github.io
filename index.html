@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('/placeholder.svg?height=400&width=1200');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff4757;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .featured-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .post-card {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+        .post-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .post-content {
+            padding: 1.5rem;
+        }
+        .post-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        .post-excerpt {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wanderlust Adventures</h1>
+        <p class="subtitle">Explore the world, one adventure at a time</p>
+        <a href="#" class="cta-button">Start Your Journey</a>
+    </header>
+    
+    <main>
+        <h2>Featured Destinations</h2>
+        <div class="featured-posts">
+            <article class="post-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Bali Beaches" class="post-image">
+                <div class="post-content">
+                    <h3 class="post-title">Bali's Hidden Beaches</h3>
+                    <p class="post-excerpt">Discover secluded paradises away from the crowds in beautiful Bali.</p>
+                </div>
+            </article>
+            <article class="post-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Tokyo Streets" class="post-image">
+                <div class="post-content">
+                    <h3 class="post-title">Tokyo After Dark</h3>
+                    <p class="post-excerpt">Experience the vibrant nightlife of Japan's electric capital city.</p>
+                </div>
+            </article>
+            <article class="post-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Santorini Sunset" class="post-image">
+                <div class="post-content">
+                    <h3 class="post-title">Santorini Sunsets</h3>
+                    <p class="post-excerpt">Witness breathtaking views from the cliffs of this Greek island paradise.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wanderlust Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
